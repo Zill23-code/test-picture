@@ -86,51 +86,31 @@ margin-left: 50px;
 
   
 }
-.pillars-section{
- 
-  margin-left: 100px;
-  margin-right: 100px;
+.pillars-section{ 
+  width: 1200px;
+  margin: 0 auto;
 }
 .card-container{
+ display: flex;
  
+ gap: 10px;
+ justify-content: center;
   
 }
 
-.cards-style-1{
+.cards-style{
   background-color:#FFFFFF ;
-  width: 302px;
+  width: 270px;
   height: 244px;
-  gap:24px;
-  padding: 24px 24px 24px 24px;
-  margin-right: 70px;
-  
+  padding: 10px; 
   
 }
-.cards-style-2{ background-color:#FFFFFF ;
-  width: 302px;
-  height: 244px;
-  gap:24px;
-  padding: 24px 24px 24px 24px;
-  margin-right: 70px;
-  
+.gap-of-card{
+  margin-left: 12px;
+}
 
-}
-.cards-style-3{ background-color:#FFFFFF ;
-  width: 302px;
-  height: 244px;
-  gap:24px;
-  padding: 24px 24px 24px 24px;
-  margin-right: 70px;
 
-}
-.cards-style-4{background-color:#FFFFFF ;
-  width: 302px;
-  height: 244px;
-  gap:24px;
-  padding: 24px 24px 24px 24px;
-  
-  margin-right: 70px;
-}
+
 
 .card-title{
   width: 254px;
@@ -316,14 +296,18 @@ margin-left: 50px;
 
 }
 .agree-select{
-  width: 134px;
-  height: 61px;
+  width: 152px;
+  height: 60px;
   
-  padding: 16px 16px;
+  padding: 5px 10px 12px 10px;
 opacity: 100%;
 background:#FFFFFF ;
 display: flex;
 justify-content: center;
+margin-top: 20px;
+margin-right: 18px;
+text-align: center;
+
 
 }
 .yes-section{
@@ -336,9 +320,185 @@ justify-content: center;
   opacity: 100%;
   font-weight: 500;
   font-size: 16px;
-
+  margin: 15px 10px 15px 10px;
+text-align: center;
 }
-.yes-no-sections{
+.question-block{
   display: flex;
   justify-content: space-between;
+
+}
+.news-section {
+  max-width: 1280px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.vision-description {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+/* news section */
+.news-section {
+  width: 1200px;
+  margin: 0 auto;
+  background: #F5F5F5;
+}
+.news-card-section{
+  gap: 24px;
+  padding: 24px ;
+  display: flex;
+  justify-content: space-between;
+  background: #FFFFFF;
+}
+.news-img img{
+  width:406px ;
+  height: 300px;
+  border-radius: 24px;
+  gap: 32px;
+}
+.img-size{
+  width:134px ;
+  height:40px ;
+}
+.news-headlines{
+  width: 700px;
+  height:290px ;
+  gap: 10px;
+}
+.news-report{
+  width: 725px ;
+  height: 72px; 
+  line-height:  24px; 
+  
+}
+.gap-1 {
+  margin-top: 24px;
+}
+.gap-2 {
+  margin-top: 24px;
+}
+.gap-3{
+  margin-top: 24px;
+}
+/* donate section */
+.donate-section {
+  width:1280px ;
+  height: 464px;
+  gap:32px;
+  
+  
+}
+.donate-cards{
+  width: 1071px;
+  height: 128px;
+  gap:24px;
+  display: flex;
+  justify-content: space-around;
+ margin-left: 250px;
+ margin-top: 10px;
+  
+
+}
+.small-amount{
+ width:135px;
+  height:60px ;
+ padding: 24px 24px; 
+  border-radius: 16px;
+  background: #FFFFFF;
+  text-align: center;
+  
+}
+.second-amount{
+  background:#C6E4D6 ;
+}
+h3{
+  text-align: center;
+}
+.donate-description{
+  text-align: center;
+  margin-left: 60px ;
+}
+.other-section{
+  width: 950px;
+  max-height: 36px;
+  gap:16px;
+  padding: 20px 30px 20px 30px;
+  background:#FFFFFF ;
+  display: flex;
+  justify-content: center;
+margin-left: 200px;
+margin-top: 10px;
+text-align: center;
+margin-bottom: 30px;
+
+}
+.other-description{
+  width: 187px;
+  height:24 ;
+  color: rgb(14, 14, 14, 30%);
+}
+.btn-primary-1{
+  width: 150px;
+  height:30px ;
+  background: #006A50;
+  gap: 48px;
+  padding-top: 25px;
+  padding-bottom: 35px;
+
+  color: #F5F5F5;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+margin-left: 630px;
+font-weight: 300;
+font-size: 15px;
+margin-top: 30px;
+}
+.news-letter-section {
+  width:857px ;
+  height:265px ;
+  gap: 64px;
+  padding: 80px 60px 80px 60px ;
+  border-radius: 24px;
+  background: #C6E4D6;
+  margin: 20px 2300px 20px 230px;
+  
+}
+.mailbox{
+  width: 600px;
+  height:55px;
+  gap:24px;
+  background: #FFFFFF;
+  color: rgb(14, 14, 14, 30%);
+  border-style: none;
+}
+
+.subscribs-btn{
+  width: 150px;
+  height:56px ;
+  gap: 48;
+padding: 14px;
+  background: #006A50;
+  color: #F5F5F5;
+  border-radius:8px;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 18px;
+}
+.news-letter-mail{
+  display: flex;
+  justify-content: baseline;
+}
+.note{
+ 
+  margin-left: 240px;
+  font-weight: 200;
+  font-size: 16px;
+  color: rgb(14, 14, 14, 70%);
 }
